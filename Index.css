@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.watch{
+    background: linear-gradient( skyblue,rgb(36, 107, 135));
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background: transparent;
+    height: 75vh;
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(122, 157, 179);
+    border-radius: 10px 10px 10px 10px;
+    align-content: space-evenly;
+    
+ 
+}
+.header{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(17, 69, 95);
+}
+    
+    
+
+.time{
+    font-size: 40px;
+    color: rgb(102, 102, 226);
+    
+
+}
+.start{
+    background: transparent;
+    border: 1px solid rgb(170, 195, 199);
+    border-radius: 2px;
+    height: 30px;
+    width: 40%;
+    border-radius: 25px  25px  25px  25px;
+   
+}
+.restart{
+    background: transparent;
+    border: 1px solid rgb(170, 195, 199);
+    border-radius: 2px;
+    height: 30px;
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 25px  25px  25px  25px;
+   
+}
+.stop{
+    background: transparent;
+    border: 1px solid rgb(170, 195, 199);
+    border-radius: 25px  25px  25px  25px;
+    height: 30px;
+    width: 90%;
+    margin-top: 15px;
+   
+}
+
